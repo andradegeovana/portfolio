@@ -1,3 +1,7 @@
-# Hugo example site for [Pico](https://github.com/negrel/hugo-theme-pico/) theme
+# Tutorial quick-start
 
-See [instructions](https://github.com/negrel/hugo-theme-pico/)
+Para rodar o código, siga as instruções abaixo:
+
+### 1: 
+
+npm install
