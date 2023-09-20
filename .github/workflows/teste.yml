@@ -1,29 +1,18 @@
-name: Publicar Site Hugo
+name: Fluxo de Trabalho
 
 on:
   push:
     branches:
-      - main  
+      - main
 
 jobs:
-  build:
-    name: Compilar e Publicar Site
-    runs-on: ubuntu-latest
+  mensagem:
+    name: Exibir Mensagem
+    runs-on: windows-latest
 
     steps:
     - name: Checkout do Código
       uses: actions/checkout@v2
 
-    - name: Configurar Hugo
-      uses: peaceiris/actions-hugo@v2
-      with:
-        hugo-version: 'latest'
-
-    - name: Compilar o Site
-      run: hugo --minify
-
-    - name: Publicar no GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        personal_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public  
+    - name: Exibir Mensagem
+      run: echo "Um push foi feito na branch main."
