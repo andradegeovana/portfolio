@@ -17,7 +17,7 @@ subtitle = "Sou uma pessoa muito esforçada e tenho as seguintes habilidades:"
 [[bar]]
 	icon = "/icons/heat.svg"
 	name = "Proatividade"
-	percent = "95%"
+	percent = "99%"
 
 
 [[bar]]
@@ -29,6 +29,6 @@ subtitle = "Sou uma pessoa muito esforçada e tenho as seguintes habilidades:"
 [[bar]]
 	icon = "/icons/presentation.svg"
 	name = "Dedicação"
-	percent = "99%"
+	percent = "100%"
 
 +++
