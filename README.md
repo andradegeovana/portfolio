@@ -15,5 +15,19 @@ choco install hugo-extended
 
 ### 3° passo:
 
+- Rode o comando abaixo ou clique no arquivo setup.sh para instalar o npm
 
-npm install
+./setup.sh
+
+### 4° passo:
+
+- Utilize o comando abaixo para rodar o site:
+
+hugo server
+
+### Obs:
+
+- Caso você tenha algum problema para rodar o site, utilize os comandos abaixo:
+
+git submodule init
+git submodule update
