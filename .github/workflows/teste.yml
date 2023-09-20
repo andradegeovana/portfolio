@@ -1,0 +1,30 @@
+name: Teste Unitário
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    name: Executar Testes
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout do Código
+      uses: actions/checkout@v2
+
+    - name: Configurar Ambiente Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+
+    - name: Instalar Dependências
+      run: |
+        pip install -r requirements.txt
+      working-directory: ./portfolio 
+
+    - name: Executar Testes
+      run: |
+        pytest
+      working-directory: ./portfolio
