@@ -21,5 +21,8 @@
 		"> 1%",
 		"maintained node versions",
 		"not dead"
-	]
+	],
+	"devDependencies": {
+		"eslint": "^8.49.0"
+	}
 }
