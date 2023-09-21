@@ -8,7 +8,7 @@
 	"scripts": {
 		"build": "hugo --gc",
 		"dev": "hugo server .",
-		"lint": "eslint src --ext .ts, .tsx"
+		"lint": "eslint content --ext .ts, .tsx"
 	},
 	"dependencies": {
 		"autoprefixer": "^10.4.15",
