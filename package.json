@@ -7,7 +7,8 @@
 	"license": "MIT",
 	"scripts": {
 		"build": "hugo --gc",
-		"dev": "hugo server ."
+		"dev": "hugo server .",
+		"lint": "eslint src --ext .ts, .tsx"
 	},
 	"dependencies": {
 		"autoprefixer": "^10.4.15",
@@ -23,6 +24,9 @@
 		"not dead"
 	],
 	"devDependencies": {
-		"eslint": "^8.49.0"
+		"@typescript-eslint/eslint-plugin": "^6.7.2",
+		"@typescript-eslint/parser": "^6.7.2",
+		"eslint": "^8.49.0",
+		"eslint-plugin-react": "^7.33.2"
 	}
 }
